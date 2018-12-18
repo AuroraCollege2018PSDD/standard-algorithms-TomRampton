@@ -1,0 +1,11 @@
+BEGIN Load Array
+    Let i= 0
+    Read DataValue
+    WHILE DateValue<>"xxx"
+        Let Element (i) = DataValue
+        i=i+1
+    Read DataValue
+    ENDWHILE
+    Let NumElements = i
+    Display "there are"NumElements"items loaded into the array"
+END LoadArray
